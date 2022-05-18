@@ -1,0 +1,17 @@
+@import "../utils/mixins.scss";
+
+nav{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 50%;
+}
+nav>a, nav>a:visited{
+    text-decoration: none;
+    color: #DFAB09;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+}

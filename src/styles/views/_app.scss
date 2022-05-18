@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import "../utils/mixins.scss";
+
+
+main{
+  @include column;
+  height: 100%;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: flex-start;
+}
+
+.main-dark{
+  background-color: #000000;
+  color: white;
+  height: 100%;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: flex-start;
+}
+  
+
+.App {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 2em;
+  min-height: 100vh;
+  position: relative;
+}
+  
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+a, a:visited{
+  text-decoration: none;
+  color: #000000;
+}

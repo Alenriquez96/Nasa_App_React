@@ -1,0 +1,37 @@
+.imgHome{
+    height: 500px;
+    width: 700px;
+}
+
+#divHome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}  
+
+#divHome>section{
+    flex-direction: column;
+}
+
+#divHome>section>p{
+    width: 70%;
+    line-height: 1.8;
+}
+
+.idvLogin{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.idvLogin>button>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

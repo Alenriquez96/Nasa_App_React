@@ -1,0 +1,43 @@
+@import "../utils/mixins.scss";
+
+header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 65px;
+    background-color: #6c8e9e;
+    
+}
+
+header>img{
+    height: 60px;
+    width: 60px;
+}
+
+.btnMode{
+    background-color: #6c8e9e;
+    border: none;
+}
+
+header>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.loginIcon{
+    height: 35px;
+    width: 35px;
+}
+
+.popupLogin-content{
+    width: 80px !important;
+}
+
+#logoutBtn{
+    background-color: transparent;
+  }
+  

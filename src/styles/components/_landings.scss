@@ -1,0 +1,38 @@
+.leaflet-container {
+    width: 70vw;
+    height: 70vh;
+  }
+
+.formLanding{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+ 
+  height: 80px;
+}
+
+.formLanding *{
+  margin: 10px;
+}
+
+.divLanding{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.divRouteChange{
+  margin: 20px;
+}
+
+.divBar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
